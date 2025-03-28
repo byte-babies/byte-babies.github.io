@@ -8,12 +8,12 @@
     --font-main: 'Fira Code', monospace;
     --font-secondary: 'Fira Code', monospace;
     --font-scale: .95em;
-    --background-color: #F8F1E5; /* Lighter cream */
-    --heading-color: #2C1E15; /* Darker roast coffee */
-    --text-color: #1F1408; /* Darker espresso */
-    --link-color: #7C4011; /* Darker caramel */
-    --visited-color: #5E3211; /* Darker roasted coffee beans */
-    --main-color: #96572D; /* Darker café au lait */
+    --background-color: #222e11; /* Lighter cream */
+    --heading-color: #dfe76c; /* Darker roast coffee */
+    --text-color: #f2fb73; /* Darker espresso */
+    --link-color: #f2fb73; /* Darker caramel */
+    --visited-color: #929746; /* Darker roasted coffee beans */
+    --main-color: #f2fb73; /* Darker café au lait */
     --code-background-color: #E6D7C3; /* Coffee stained paper */
     --code-color: #2C1E15; /* Darker roast coffee */
     --blockquote-color: #B99B6B; /* Darker café latte foam */
@@ -62,7 +62,7 @@ a {
     font-family: var(--font-main);
     cursor: pointer;
     text-decoration: none;
-    border-bottom: 3px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 
 a:hover {
