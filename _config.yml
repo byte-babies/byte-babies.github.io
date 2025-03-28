@@ -13,6 +13,7 @@ url: "https://byte-babies.github.io" # the base hostname & protocol for your sit
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-feed
 
 whitelist:
   - jekyll-redirect-from
@@ -59,7 +60,7 @@ Blog: /writeups
 
 # Add general links to site pages here
 links:
-  # Resume: /assets/resume.pdf
+  RSS: /feed.xml
   
 
 # Add links for more focus here
