@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Blog
-description: Here be writings
-permalink: /blog
+title: Writeups
+description: Here be writeups
+permalink: /writeups
 ---
 
-Here be writings. Mostly mundane, sometimes fanciful.
+Here be CTF writeups.

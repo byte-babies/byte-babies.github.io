@@ -55,7 +55,7 @@ exclude:
 
 exclude: [vendor]
 
-Blog: /blog
+Blog: /writeups
 
 # Add general links to site pages here
 links:
