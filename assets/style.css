@@ -19,20 +19,6 @@
     --blockquote-color: #B99B6B; /* Darker café latte foam */
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #1A1310; /* Darker espresso */
-        --heading-color: #F0DFC0; /* Lighter café latte foam */
-        --text-color: #F0E6D2; /* Lighter coffee stained paper */
-        --link-color: #E5A254; /* Lighter caramel drizzle */
-        --visited-color: #C49B76; /* Lighter roasted coffee beans */
-        --main-color: #B89470; /* Lighter mocha */
-        --code-background-color: #2C2117; /* Dark chocolate coffee */
-        --code-color: #F0DFC0; /* Lighter café latte foam */
-        --blockquote-color: #6E563D; /* Lighter coffee grounds */
-    }
-}
-
 body {
     font-family: var(--font-secondary);
     font-size: var(--font-scale);
