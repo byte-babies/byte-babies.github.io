@@ -14,9 +14,8 @@
     --link-color: #f2fb73; /* Darker caramel */
     --visited-color: #bdc45c; /* Darker roasted coffee beans */
     --main-color: #f2fb73; /* Darker café au lait */
-    --code-background-color: #E6D7C3; /* Coffee stained paper */
-    --code-color: #2C1E15; /* Darker roast coffee */
-    --blockquote-color: #B99B6B; /* Darker café latte foam */
+    --code-background-color: #18220c; /* Coffee stained paper */
+    --code-color: #f2fb73; /* Darker roast coffee */
 }
 
 body {
