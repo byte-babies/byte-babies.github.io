@@ -1,6 +1,6 @@
+---
+---   
 
-      
-      
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
@@ -197,7 +197,7 @@ td {
 }
 
 /* external link marker */
-a[href^="http"]:where(:not([href*="knhash.in/"])):not(:has(img))::after {
+a[href^="http"]:where(:not([href*="{{ site.url | hostname }}"])):not(:has(img))::after {
     content: "↗"
 }
 
