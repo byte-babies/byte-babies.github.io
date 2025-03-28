@@ -9,6 +9,8 @@ title: Homepage
 
 [Github](https://github.com/byte-babies)
 
+[Discord](https://discord.gg/DwXKnG8FNC)
+
 we:
 - conquer (with pwn tools)
 - disseminate (shellcode across the system)
