@@ -5,8 +5,6 @@ date:   2025-02-17
 tags: [writeup, forensics]
 ---
 
-# BroncoCTF 2025: QR Coded
-
 This writeup was requested multiple times on Discord so here it is. I solved this while playing with "BLIGHT BABIES" (now BYTE BABIES) at BroncoCTF 2025. This is a forensics problem which is definitely not my forte.
 
 ## Problem
