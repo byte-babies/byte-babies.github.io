@@ -3,7 +3,7 @@ layout: post
 title: "JerseyCTF 2025: Sandy Shores"
 date:   2025-03-30
 author: me
-tags: [writeup]
+tags: [writeup, crypto]
 ---
 
 

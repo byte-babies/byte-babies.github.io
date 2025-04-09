@@ -3,7 +3,7 @@ layout: post
 title: "SwampCTF 2025: You Shall Not Passsss"
 date:   2025-03-31
 author: yoshixi
-tags: [writeup]
+tags: [writeup, rev]
 ---
 
 
