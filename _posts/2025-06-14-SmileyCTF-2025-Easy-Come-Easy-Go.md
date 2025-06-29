@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SmileyCTF 2025 Easy Come Easy Go"
-date:   2025-05-04
+date:   2025-06-14
 author: yoshixi
 tags: [writeup, rev]
 ---
