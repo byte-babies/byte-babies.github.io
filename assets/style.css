@@ -233,10 +233,8 @@ input[type=button], input[type=submit], input[type=reset] {
 }
       
 .logo {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    display: block;
 }
 
 .credits {
@@ -245,4 +243,20 @@ input[type=button], input[type=submit], input[type=reset] {
     a {
         border-bottom-width: 1px;
     }
+}
+
+.flavor {
+    display: flex;
+    flex-direction: row;
+}
+
+.flavor p {
+    display: block;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .flavor {
+    flex-direction: column;
+  }
 }
