@@ -85,6 +85,7 @@ module Jekyll
               points_coef = score["points"] / get_best_points(event_result)
               place_coef = 1.0 / score["place"]
               score["rating"] = ((points_coef + place_coef) * score["weight"]) / (1.0 / (1.0 + (score["place"] / get_team_participation(event_result))))
+              score["total_teams"] = get_team_participation(event_result)
 
               score_data.push(score)
             end

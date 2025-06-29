@@ -32,8 +32,8 @@ title: Homepage
         <tr>
             <td>{{ event.title }}</td>
             <td>{{ event.points }}</td>
-            <td>{{ event.place }}</td>
-            <td>{{ event.rating | times: 1000 | round | divided_by: 1000 }}</td>
+            <td>{{ event.place }} out of {{ event.total_teams }}</td>
+            <td>{{ event.rating | times: 1000.0 | round | divided_by: 1000.0 }}</td>
         </tr>
     {% endfor %}
 </table>
