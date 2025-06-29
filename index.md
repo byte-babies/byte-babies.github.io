@@ -25,12 +25,15 @@ title: Homepage
         <th>CTF</th>
         <th>Points</th>
         <th>Placement</th>
+        <th>Rating Points</th>
     </tr>
-    {% for event in site.data.ctftime_data limit:7 %}
+    {% assign filtered_ctfs = site.data.ctftime_data | where_exp: "ctf", "ctf.rating > 3" %}
+    {% for event in filtered_ctfs limit:7 %}
         <tr>
             <td>{{ event.title }}</td>
             <td>{{ event.points }}</td>
             <td>{{ event.place }}</td>
+            <td>{{ event.rating | times: 1000 | round | divided_by: 1000 }}</td>
         </tr>
     {% endfor %}
 </table>
