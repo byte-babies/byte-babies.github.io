@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "BroncoCTF 2025: QR Coded"
-date:   2025-02-17
 author: Faraz Malik
 tags: [writeup, forensics]
 ---

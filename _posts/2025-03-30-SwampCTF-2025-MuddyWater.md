@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "SwampCTF 2025: MuddyWater"
-date:   2025-03-30
 author: wxrth
 tags: [writeup, forensics]
 ---
