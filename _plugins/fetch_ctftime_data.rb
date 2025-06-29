@@ -9,7 +9,9 @@ module Jekyll
     priority :low
 
     TEAM_ID = 280084
-    CACHE_FILE = "_data/ctftime_data.json"
+    CACHE_FILENAME = "ctftime_data.json"
+    CACHE_DIR = "_data"
+    CACHE_FILE = CACHE_DIR + "/" + CACHE_FILENAME
 
     def generate_results_urls()
       curr_year = Date.today.year
@@ -58,6 +60,7 @@ module Jekyll
             end
           end
         end
+        FileUtils.mkdir_p(CACHE_DIR) unless Dir.exist?(CACHE_DIR)
         File.write(CACHE_FILE, JSON.pretty_generate(relevant_results))
       else
         age = Time.now - File.mtime(CACHE_FILE)
